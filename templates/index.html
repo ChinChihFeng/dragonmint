@@ -1,0 +1,46 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Dashboard
+{% endblock %}
+
+{% block header%}
+    
+{% endblock %}
+
+
+{% block style%}
+.overheating {
+    color: red;
+}
+
+.overload {
+    color: blue;
+}
+
+.standard {
+    color: green;
+}
+{% endblock %}
+
+
+{% block body %}
+
+    <h2>Dashboard</h2>
+    <div class="table-responsive">          
+    <table class="table" id="dashboard">
+        <tr>
+            <th>#</th>
+            <th>IP</th>
+            <th>MAC Address</th>
+            <th>Number</th>
+            <th>D1 Temperture</th>
+            <th>D2 Temperture</th>
+            <th>D3 Temperture</th>
+            <th>Status</th>
+        </tr>
+    </table>
+    </div>
+    <div id="body"></div>
+
+{% endblock %}

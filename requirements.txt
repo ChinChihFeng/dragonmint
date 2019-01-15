@@ -1,0 +1,6 @@
+Flask
+Flask_sqlalchemy
+flask_apscheduler
+Requests
+ipaddress
+Threading
